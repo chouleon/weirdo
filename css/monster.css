@@ -1,0 +1,301 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+  a,
+  img{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header{
+    display: flex;
+    height: 90px;
+    background: linear-gradient(89.27deg, #D51F1F 0.63%, #000000 65.94%);
+  }
+  .logo-link{
+    background: none;
+  }
+  .logo{
+    width: 107px;
+    height: 80px;
+    margin: 5px 100px;
+  }
+  .nav{
+    width: 960px;
+    margin-left: 13px;
+  }
+  .nav-list{
+    display: flex;
+    padding: 0;
+  }
+  .nav-item{
+    list-style: none;
+    text-align: center;
+    width: 240px;
+  }
+  .nav-link{
+    color: #D51F1F;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav-link:hover {color: #FFFFFF}
+  .nav-download{
+    padding: 5px 20px;
+    background: #D51F1F;
+    color: #000000;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #FFFFFF;
+  }
+  .nav-download:hover {background: #FFFFFF;
+    color: #D51F1F;
+    border-color: #0D0F26;}
+  .content-area{
+    height: 630px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+  }
+  .area-logo{
+    margin-bottom: 50px;
+  }
+  .logo-blue{
+    width: 200px;
+    margin-top: 159px;
+    margin-left: 258px;
+  }
+  .logo-red{
+    width: 200px;
+    margin-left: 360px;
+  }
+  .logo-blue-button{
+    width: 300px;
+    padding: 18px 40px;
+    margin-left: 212px;
+    background: linear-gradient(0deg, #1F4AD5 -63.33%, #000000 128.54%);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+  }
+  .logo-red-button{
+    width: 300px;
+    padding: 18px 81px;
+    margin-left: 256px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+  }
+  .content-area-1{
+    height: 720px;
+    padding: 35px 60px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+  }
+  .content-area-1-1{
+    display: flex;
+    align-items: flex-start;
+  }
+  .monster-1{
+    width: 245px;
+    height: 328px;
+  }
+  .monster-1-title{
+    margin-top: 0;
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+  }
+  .monster-2{
+    width: 244px;
+    height: 327px;
+    margin-left: 256px;
+  }
+  .monster-2-title{
+    margin-top: 0;
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+  }
+  .content-area-1-2{
+    display: flex;
+    align-items: flex-start;
+  }
+  .monster-1-content{
+    width: 426px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .monster-2-content{
+    width: 461px;
+    margin-left: 244px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content-area-2{
+    display: flex;
+    align-items: flex-start;
+    height: 730px;
+    background: linear-gradient(48.83deg, #D51F1F -34.08%, #000000 7.48%, #D51F1F 125.16%);
+  }
+  .monster-3{
+    width: 400px;
+    height: 536px;
+    margin-top: 95px;
+    margin-left: 72px;
+  }
+  .monster-3-area{
+    margin-top: 136px;
+    margin-left: 66px;
+  }
+  .monster-3-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+  }
+  .monster-3-content{
+    width: 714px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content-area-3{
+    display: flex;
+    align-items: flex-start;
+    height: 723px;
+    background: linear-gradient(180deg, #0D0F26 0%, #8C2F2F 100%);
+  }
+  .monster-4{
+    width: 300px;
+    height: 401px;
+    margin-top: 23px;
+    margin-left: 54px;
+    margin-right: 291px;
+  }
+  .monster-4-title{
+    margin-top: 0;
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+  }
+  .monster-4-content{
+    width: 510px;
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .monster-5{
+    width: 300px;
+    height: 401px;
+    margin-top: 23px;
+    margin-right: 235px;
+  }
+  .monster-5-title{
+    margin-top: 0;
+    margin-right: 439px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+  }
+  .monster-5-content{
+    width: 468px;
+    margin-right: 439px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .footer{
+    display: flex;
+    height: 160px;
+    background: linear-gradient(90deg, #1A1A1A 69.6%, #D51F1F 100%);
+  }
+  .logo-red-2{
+    width: 107px;
+    height: 80px;
+    margin: 40px 55px;
+  }
+  .footer-content{
+    width: 323px;
+    color: #D51F1F;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .footer-ig{
+    width: 50px;
+    height: 50px;
+    margin-top: 55px;
+    margin-left: 375px;
+    margin-right: 26px;
+  }
+  .footer-yt{
+    width: 65px;
+    height: 65px;
+    margin-top: 47px;
+    margin-right: 26px;
+  }
+  .footer-button{
+    height: 60px;
+    margin-top: 50px;
+    padding-left: 68px;
+    padding-right: 68px;
+    background: #000000;
+    color: #D51F1F;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #FFFFFF;
+  }

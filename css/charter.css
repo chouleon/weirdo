@@ -1,0 +1,332 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+  a,
+  img{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header{
+    display: flex;
+    height: 90px;
+    background: linear-gradient(89.27deg, #D51F1F 0.63%, #000000 65.94%);
+  }
+  .logo-link{
+    background: none;
+  }
+  .logo{
+    width: 107px;
+    height: 80px;
+    margin: 5px 100px;
+  }
+  .nav{
+    width: 960px;
+    margin-left: 13px;
+  }
+  .nav-list{
+    display: flex;
+    padding: 0;
+  }
+  .nav-item{
+    list-style: none;
+    text-align: center;
+    width: 240px;
+  }
+  .nav-link{
+    color: #D51F1F;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav-link:hover {color: #FFFFFF}
+  .nav-download{
+    padding: 5px 20px;
+    background: #D51F1F;
+    color: #000000;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #FFFFFF;
+  }
+  .nav-download:hover {background: #FFFFFF;
+    color: #D51F1F;
+    border-color: #0D0F26;}
+  .content-area{
+    height: 630px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+  }
+  .area-logo{
+    margin-bottom: 50px;
+  }
+  .logo-blue{
+    width: 200px;
+    margin-top: 159px;
+    margin-left: 258px;
+  }
+  .logo-red{
+    width: 200px;
+    margin-left: 360px;
+  }
+  .logo-blue-button{
+    width: 300px;
+    padding: 18px 40px;
+    margin-left: 212px;
+    background: linear-gradient(0deg, #1F4AD5 -63.33%, #000000 128.54%);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+  }
+  .logo-blue-button:hover {background: #FFFFFF;
+    color: #1F4AD5}
+  .logo-red-button{
+    width: 300px;
+    padding: 18px 81px;
+    margin-left: 256px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+  }
+  .logo-red-button:hover {background: #FFFFFF;
+    color: #D51F1F}
+  .content-area-1{
+    height: 720px;
+    background: linear-gradient(90deg, #D51F1F 0%, #000000 67.6%);
+  }
+  .content-area-1-title{
+    margin-top: 41px;
+    margin-left: 102px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .content-area-1-content{
+    width: 1102px;
+    margin-left: 106px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 64px;
+  }
+  .image-area{
+    display: flex;
+    align-items: flex-start;
+  }
+  .image{
+    width: 332px;
+    height: 423px;
+    margin-left: 59px;
+  }
+  .image-content{
+    width: 667px;
+    margin-top: 112px;
+    margin-left: 112px;
+    color: #a2a1a1;
+    font-size: 20px;
+    font-family: "Roboto Mono", serif;
+    line-height: 44px;
+  }
+  .highlight-text {
+    color: #D51F1F;
+    font-size: 24px;
+    font-family: "Roboto Mono", serif;
+  }
+  .content-area-2{
+    height: 730px;
+    background: linear-gradient(180deg, #260D0D 0%, #8C2F2F 100%);
+  }
+  .content-area-2-1{
+    height: 360px;
+    background: linear-gradient(90.02deg, #260E0D 40.88%, rgba(92, 97, 145, 0) 108.01%);
+  }
+  .content-area-2-1-1{
+    display: flex;
+    align-items: flex-start;
+  }
+  .image-1{
+    width: 345px;
+    height: 360px;
+  }
+  .content-area-2-1-title{
+    color:#FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .content-area-2-1-content{
+    width: 805px;
+    margin-left: 15px;
+    margin-top: 40px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+  }
+  .content{
+    color: #a2a1a1;
+    font-size: 20px;
+    font-family: "Roboto Mono", serif;
+  }
+  .content-area-2-2{
+    display: flex;
+    align-items: flex-start;
+    height: 360px;
+    background: linear-gradient(90.02deg, rgba(92, 97, 145, 0) 37.72%, #260D0D 104.85%);
+  }
+  .content-area-2-2-title{
+    margin-left: 41px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .content-area-2-2-content{
+    width: 827px;
+    margin-left: 41px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+  }
+  .image-2{
+    width: 282px;
+    height: 355px;
+    margin-left: 129px;
+  }
+  .content-area-3{
+    display: flex;
+    align-items: flex-start;
+    height: 723px;
+    background: linear-gradient(180deg, #260D0D 40.88%, #8C2F2F 108.01%);
+  }
+  .image-3{
+    width: 282px;
+    height: 355px;
+    margin-left: 157px;
+  }
+  .content-area-3-1-title{
+    margin-left: 82px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .content-area-3-1-content{
+    width: 528px;
+    margin-left: 82px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+  }
+  .image-4{
+    width: 332px;
+    height: 380px;
+    margin-left: 59px;
+  }
+  .content-area-4-1-title{
+    margin-left: 59px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .content-area-4-1-content{
+    width: 558px;
+    margin-left: 59px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family: "Actor", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+  }
+  .footer{
+    display: flex;
+    height: 160px;
+    background: linear-gradient(90deg, #1A1A1A 69.6%, #D51F1F 100%);
+  }
+  .logo-red-2{
+    width: 107px;
+    height: 80px;
+    margin: 40px 55px;
+  }
+  .footer-content{
+    width: 323px;
+    color: #D51F1F;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .footer-ig{
+    width: 50px;
+    height: 50px;
+    margin-top: 55px;
+    margin-left: 375px;
+    margin-right: 26px;
+  }
+  .footer-yt{
+    width: 65px;
+    height: 65px;
+    margin-top: 47px;
+    margin-right: 26px;
+  }
+  .footer-button{
+    height: 60px;
+    margin-top: 50px;
+    padding-left: 68px;
+    padding-right: 68px;
+    background: #000000;
+    color: #D51F1F;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #FFFFFF;
+  }
